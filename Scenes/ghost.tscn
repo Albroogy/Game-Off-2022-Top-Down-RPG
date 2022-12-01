@@ -2581,7 +2581,7 @@ script = ExtResource( 11 )
 self_modulate = Color( 2.32, 15.12, 16.76, 1 )
 frames = SubResource( 1 )
 animation = "idle_up_left"
-frame = 5
+frame = 7
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 reset_on_save = false

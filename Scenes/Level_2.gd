@@ -8,6 +8,7 @@ var player: Node
 onready var animation_player = $CanvasLayer/AnimationPlayer
 
 func _ready():
+	Enemies.Count = 28
 	player = get_tree().get_root().find_node('Player', true, false)
 	player.cliche_on = false
 	VisualServer.set_default_clear_color(Color.lightblue)

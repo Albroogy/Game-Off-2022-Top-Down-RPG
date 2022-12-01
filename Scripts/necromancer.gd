@@ -16,6 +16,7 @@ enum{
 func _ready():
 	randomize()
 	state = idle
+	Enemies.Count += 1
 
 func spawner():
 	enemies()
@@ -40,6 +41,7 @@ func _on_AnimationPlayer_animation_finished(attack):
 func _physics_process(delta):
 	health_box.value = health
 	if health <= 0:
+		Enemies.Count -= 1
 		queue_free()
 
 	match state:

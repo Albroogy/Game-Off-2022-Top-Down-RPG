@@ -30,6 +30,7 @@ enum {
 func _ready():
 	agent.set_target_location(player1.global_position)
 	timer.connect("timeout", self, "update_pathfinding")
+	Enemies.Count += 1
 	
 func _physics_process(delta):
 	if agent.is_navigation_finished():
@@ -86,6 +87,7 @@ func _on_hurt_box_area_entered(area):
 
 
 func _on_AnimationPlayer_animation_finished(death):
+	Enemies.Count -= 1
 	queue_free()
 
 func update_pathfinding():

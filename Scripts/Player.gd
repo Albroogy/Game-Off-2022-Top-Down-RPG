@@ -4,7 +4,7 @@ export (int) var speed = 150
 var input = Vector2.ZERO
 var state = MOVE
 var weapon_state = null
-var health = 100
+var health = 300
 var velocity = Vector2.ZERO
 var current_weapon = null 
 var weapon_on_hand = false
@@ -178,7 +178,7 @@ func weapon_drop():
 func health_regen():
 	if cliche_on == true:
 		health += 5 
-		health = min(health, 100)
+		health = min(health, 300)
 
 
 func _on_sword_cd_timeout():
@@ -189,9 +189,6 @@ func _on_health_regen_timeout():
 	health_regen()
 
 func death():
-	if health <= 0 and scene_transitioning == false:
-		SceneTransition.scene_transition(level_1)
-		scene_transitioning = true
-		Enemies.Count = 0
-		queue_free()
+	if health <= 0:
+		get_tree().reload_current_scene()
 

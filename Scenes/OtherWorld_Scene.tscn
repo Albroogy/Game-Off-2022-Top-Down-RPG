@@ -1092,8 +1092,6 @@ tile_data = PoolIntArray( 0, 0, 0, 131086, 17, 0, 131096, 5, 0, 196617, 4, 0, 19
 
 [node name="Player" parent="Navigation2D/YSort" instance=ExtResource( 6 )]
 position = Vector2( 47, 36 )
-collision_layer = 0
-collision_mask = 0
 health_regen = 0
 
 [node name="Gate" parent="Navigation2D/YSort" instance=ExtResource( 14 )]

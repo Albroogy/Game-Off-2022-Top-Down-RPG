@@ -7,6 +7,7 @@ onready var timer = $Timer
 onready var timer2 = $Timer2
 
 func _ready():
+	Enemies.Count = 28
 	VisualServer.set_default_clear_color(Color.lightblue)
 	timer2.start()
 	
