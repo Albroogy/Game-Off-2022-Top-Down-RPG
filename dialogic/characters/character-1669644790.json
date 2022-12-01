@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "NPC\n",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1669644790.json",
+	"mirror_portraits": false,
+	"name": "Sabin",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 200,
+	"offset_y": -180,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/Actor/Characters/Noble/Faceset.png"
+		}
+	],
+	"scale": 400,
+	"theme": ""
+}

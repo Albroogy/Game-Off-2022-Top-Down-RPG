@@ -1,0 +1,61 @@
+{
+	"events": [
+		{
+			"character": "character-1669644790.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I understand now, this is all the necromancer's doing…"
+		},
+		{
+			"character": "character-1669644790.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He has figured out a way to change the game's code by manipulating the binary digits of a computer… This process is slow, but with time, he may be able to remove all the cliches in the game that give you, the player, power."
+		},
+		{
+			"character": "character-1669644790.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you don’t act quickly and defeat the necromancer, and figure out a way to reverse the changes, he might make these changes permanent… "
+		},
+		{
+			"character": "character-1669644753.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok, so what if the game is changed? What can he really alter?"
+		},
+		{
+			"character": "character-1669644790.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If the necromancer keeps on changing the game, it might become unplayable, which matters because, well, you payed for the game."
+		},
+		{
+			"character": "character-1669644753.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No I didn’t"
+		},
+		{
+			"character": "character-1669644790.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Shut up, I don’t care if you did or not, if you lose, the necromancer will delete me out of existence! First, my arms, then, my legs, and then, I won’t even be able to think! So you better fix this!"
+		},
+		{
+			"character": "character-1669644753.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fine."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669644733.json",
+		"name": "dialogue-3"
+	}
+}

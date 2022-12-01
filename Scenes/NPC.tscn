@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Actor/Characters/Noble/SpriteSheet.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/NPC.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/theme.tres" type="Theme" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+
+[node name="NPC" type="Area2D"]
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="Sprite" parent="."]
+position = Vector2( 0, -2 )
+texture = ExtResource( 1 )
+hframes = 4
+vframes = 7
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Health" type="Control" parent="."]
+margin_left = -16.0
+margin_top = -16.0
+margin_right = 24.0
+margin_bottom = 24.0001
+rect_rotation = -0.271797
+
+[node name="ProgressBar" type="ProgressBar" parent="Health"]
+margin_left = 7.01415
+margin_top = -2.96676
+margin_right = 50.0142
+margin_bottom = 11.0332
+rect_scale = Vector2( 0.5, 0.5 )
+theme = ExtResource( 3 )
+max_value = 50.0
+value = 50.0
+percent_visible = false
+
+[connection signal="area_entered" from="." to="." method="_on_NPC_area_entered"]

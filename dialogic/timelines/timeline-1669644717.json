@@ -1,0 +1,43 @@
+{
+	"events": [
+		{
+			"character": "character-1669644790.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello, traveller, it seems you have defeated the skeletons plaguing this desert town, and I congratulate you for that."
+		},
+		{
+			"character": "character-1669644753.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, but what do I do next? Why has this shoddy game spawned me in the middle of a desert again???"
+		},
+		{
+			"character": "character-1669644790.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1669644790.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s not supposed to be this way, you’re not supposed to be here anymore… Unless, the game has changed…"
+		},
+		{
+			"character": "character-1669644790.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It cannot be, how could this have happened…"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669644717.json",
+		"name": "dialogue-1"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"events": [
+		{
+			"character": "character-1669644753.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Woah! Where am I? This does not look like the place I was at all!\n"
+		},
+		{
+			"character": "character-1669646926.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hahaha, you are in my world now! And this time, you can't escape from this place because of an invisible barrier I coded into the game."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669897540.json",
+		"name": "dialogue-4"
+	}
+}

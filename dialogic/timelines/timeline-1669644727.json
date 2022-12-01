@@ -1,0 +1,55 @@
+{
+	"events": [
+		{
+			"character": "character-1669646926.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes yes, you defeated my small minions, you puny player, but let’s see if you can defeat them without help from the unrealistic code in this game!"
+		},
+		{
+			"character": "character-1669644753.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uhh who was that?"
+		},
+		{
+			"character": "character-1669644753.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And what do you mean?"
+		},
+		{
+			"character": "character-1669644753.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Agghhh, I feel, weaker…"
+		},
+		{
+			"character": "character-1669646926.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hahaha, I am done losing because this game makes the puny hero so overpowered! Try to beat me in a realistic world where you don’t have your inhuman powers!"
+		},
+		{
+			"character": "character-1669644753.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Looks like my regeneration power is gone. And my weapons are weaker!"
+		},
+		{
+			"character": "character-1669644790.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You have to protect me!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669644727.json",
+		"name": "dialogue-2"
+	}
+}

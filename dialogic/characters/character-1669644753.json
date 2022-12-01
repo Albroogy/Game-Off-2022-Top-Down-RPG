@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "Player of the game",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1669644753.json",
+	"mirror_portraits": false,
+	"name": "Suman",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 500,
+	"offset_y": -180,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/Actor/Characters/DarkNinja/Faceset.png"
+		}
+	],
+	"scale": 300,
+	"theme": ""
+}
